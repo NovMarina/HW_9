@@ -58,7 +58,7 @@ function reverse(number) {
     number = checkisnumber(number);
     number = Math.trunc(number).toString();
     let result = "";
-    if (number.charAt(0) == "-") {
+    if (number.charAt(0) === "-") {
         result += number.charAt(0);
         for (let i = number.length - 1; i > 0; i--)
             result += number.charAt(i);
