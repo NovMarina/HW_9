@@ -50,6 +50,7 @@ function hex(number) {
     }
     return sign + result;
 }
+
 console.log(hex(numberStr));
 
 translate(numberStr);
@@ -83,6 +84,7 @@ function sumAllNumbers(number) {
 sumAllNumbers(numberStr);
 
 
-
+let expr = prompt("Enter mathematical expression ()*/+- :");
+alert(expr + " = " + eval(expr));
 
 
